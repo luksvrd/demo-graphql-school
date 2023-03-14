@@ -15,7 +15,7 @@ const schoolSchema = new Schema(
     },
     studentCount: {
       type: Number,
-      required: true,
+      default: 0,
     },
     classes: [
       {

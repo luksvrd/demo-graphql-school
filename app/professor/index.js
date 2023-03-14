@@ -13,11 +13,9 @@ const professorSchema = new Schema(
     },
     officeHours: {
       type: String,
-      required: true,
     },
     officeLocation: {
       type: String,
-      required: true,
     },
     classes: [
       {
