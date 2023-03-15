@@ -11,6 +11,6 @@ export default {
     versionKey: false,
   },
   // Appollo server config - default port is 4000
-  mongoURL: "mongodb+srv://ljvy9b:mongo@cluster0.5efqiez.mongodb.net",
+
   port: process.env.PORT || 4000,
 };
